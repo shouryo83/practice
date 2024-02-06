@@ -14,9 +14,12 @@
                     <h2 class='title'>
                         <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
                     </h2>
-                    <p class='body'>This is a sample body.</p>
+                    <p class='body'>{{ $post->body }}</p>
                 </div>
             @endforeach
+        </div>
+        <div class='paginate'>
+            {{ $posts->links() }}
         </div>
     </body>
 </html>

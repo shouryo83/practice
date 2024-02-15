@@ -30,9 +30,13 @@
             function deletePost(id) {
                 'use strict'
                 
-                if(confirm('削除すると復元できません。\n本当に削除しますか？')) {
+                if(confirm('削除すると復元できません。\本当に削除しますか？')) {
                     document.getElementById(`form_${id}`).submit();
                 }
             }
         </script>
+        
+        <div class="footer">
+            <a href="/">戻る</a>
+        </div>
 </html>

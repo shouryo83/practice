@@ -30,5 +30,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    
+    'teratail' => [
+        'token' => env('6dc0a596d88aa6a9ce06a7c2c5da1e419a3c2867')
+    ],
 
 ];
